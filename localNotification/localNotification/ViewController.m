@@ -24,7 +24,7 @@
 + (void)createLocalizedUserNotification{
     
     // 设置触发条件 UNNotificationTrigger
-    UNTimeIntervalNotificationTrigger *timeTrigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:5.0f repeats:NO];
+    UNTimeIntervalNotificationTrigger *timeTrigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:9.0f repeats:NO];
     
     // 创建通知内容 UNMutableNotificationContent, 注意不是 UNNotificationContent ,此对象为不可变对象。
     UNMutableNotificationContent *content = [[UNMutableNotificationContent alloc] init];
